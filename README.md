@@ -1,3 +1,19 @@
+# My Solution
+My solution is written in Javascript using Node.js.
+Im using MySQL run with XAMPP, where I've setup a database called `cego_assignment`.
+
+To run:
+```bash
+npm install
+npm start
+```
+
+The function `dumpToFile` takes a select query as a string.
+For testing purposes the query is fetched from the file `query.sql`. The solution is not checking whether or not this is indeed a SELECT query, which is of course not optimal.
+
+Right now the solution only works for queries regarding the `users` table.
+
+
 # Job interview assignment
 We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, use of VCS, selection of 3rd party libraries, documentation etc.
 
