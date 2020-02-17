@@ -1,0 +1,5 @@
+{
+    "sql_host": "localhost",
+    "sql_user": "root",
+    "sql_database": "cego_assignment"
+}
